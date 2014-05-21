@@ -1,0 +1,48 @@
+body {
+    background: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #666;
+}
+
+.hero {
+    padding: 3em 0;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #DDD;
+}
+
+.hero-title {
+    margin: auto;
+    max-width: 768px;
+    padding: 0 1em;
+}
+
+.hero-title > h1 {
+    color: #1F8DD6;
+    font-weight: 300;
+    font-size: 800%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-title > h2 {
+    padding: 0 2em 1em 2em;
+    font-size: 250%;
+    font-weight: 300;
+}
+
+.hero-title > p {
+    padding: 0 2em;
+    font-size: 150%;
+}
+
+.footer {
+    max-width: 768px;
+    padding: 1em 2em;
+    margin: auto;
+}
+.footer > p {
+    padding: 0 3em;
+    text-align: center;
+}
