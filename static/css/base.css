@@ -1,15 +1,34 @@
 body {
-    background: #efefef;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #666;
+    height: 100%;
+}
+
+.content {
+    margin: auto;
+    max-width: 768px;
+    padding: 0 1em;
+    margin-bottom: 2em;
+}
+
+.brand > h2 {
+    text-align: left;
+    color: #1F8DD6;
+    font-weight: 300;
+    font-size: 400%;
+    margin: 0;
+    padding: 0;
+}
+
+.brand > h2 > .help {
+    color:#666;
 }
 
 .hero {
     padding: 3em 0;
     text-align: center;
     background: #fff;
-    border-bottom: 1px solid #DDD;
 }
 
 .hero-title {
@@ -38,11 +57,7 @@ body {
 }
 
 .footer {
-    max-width: 768px;
-    padding: 1em 2em;
-    margin: auto;
-}
-.footer > p {
-    padding: 0 3em;
+    padding: 0 1em;
     text-align: center;
+    border-top: 1px solid #DDD;
 }

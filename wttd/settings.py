@@ -49,6 +49,7 @@ INSTALLED_APPS = (
 
     # Project apps
     'core',
+    'subscriptions',
 )
 
 MIDDLEWARE_CLASSES = (
